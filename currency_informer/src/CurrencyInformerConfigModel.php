@@ -8,6 +8,7 @@ namespace Drupal\currency_informer;
 class CurrencyInformerConfigModel {
   const CURRENCY_INFORMER_BLOCK = 'block';
   const CURRENCY_INFORMER_CALCULATOR = 'calculator';
+  const CURRENCY_INFORMER_COLOR_DEFAULT = 'white';
 
   public static function getTypesList() {
     return [
@@ -18,14 +19,14 @@ class CurrencyInformerConfigModel {
 
   public static function getColorsList() {
     return [
-      'white' => 'white',
-      'grey' => 'grey',
-      'yellow' => 'yellow',
-      'pink' => 'pink',
-      'blue' => 'blue',
-      'marine' => 'marine',
-      'green' => 'green',
-      'violet' => 'violet'
+      'white' => 'White',
+      'grey' => 'Grey',
+      'yellow' => 'Yellow',
+      'pink' => 'Pink',
+      'blue' => 'Blue',
+      'marine' => 'Marine',
+      'green' => 'Green',
+      'violet' => 'Violet'
     ];
   }
 }

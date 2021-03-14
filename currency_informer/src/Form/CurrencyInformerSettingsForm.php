@@ -66,6 +66,8 @@ class CurrencyInformerSettingsForm extends ConfigFormBase {
       ->set('informer_color', trim($form_state->getValue('informer_color')))
       ->save();
 
+    drupal_flush_all_caches();
+
     parent::submitForm($form, $form_state);
   }
 }
