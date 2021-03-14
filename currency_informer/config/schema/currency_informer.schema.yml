@@ -1,0 +1,17 @@
+currency_informer.settings:
+  type: config_object
+  label: 'Currency Informer Block Settings'
+  mapping:
+    #allowed_types:
+    informer_type:
+      type: string
+      label: 'Type of informer to display'
+      #sequence:
+      #  type: string
+      #  label: 'Content type'
+    informer_color:
+      type: string
+      label: 'Styling color of informer'
+      #sequence:
+      #  type: string
+      #  label: 'Content type'
