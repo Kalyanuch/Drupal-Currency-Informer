@@ -9,6 +9,9 @@ class CurrencyInformerConfigModel {
   const CURRENCY_INFORMER_BLOCK = 'block';
   const CURRENCY_INFORMER_CALCULATOR = 'calculator';
   const CURRENCY_INFORMER_COLOR_DEFAULT = 'white';
+  const CURRENCY_INFORMER_WIDTH_DEFAULT = 250;
+  const CURRENCY_INFORMER_WIDTH_MIN = 150;
+  const CURRENCY_INFORMER_WIDTH_MAX = 350;
 
   public static function getTypesList() {
     return [

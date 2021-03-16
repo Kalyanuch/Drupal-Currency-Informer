@@ -8,3 +8,6 @@ currency_informer.settings:
     informer_color:
       type: string
       label: 'Styling color of informer'
+    informer_width:
+      type: int
+      label: 'Informer block width'
