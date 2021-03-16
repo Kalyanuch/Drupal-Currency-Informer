@@ -29,7 +29,7 @@ class CurrencyInformer extends BlockBase {
       $color = CurrencyInformerConfigModel::CURRENCY_INFORMER_COLOR_DEFAULT;
     } else {
       $color = $config->get('informer_color');
-    }echo $color;
+    }
 
     if($config->get('informer_type', CurrencyInformerConfigModel::CURRENCY_INFORMER_BLOCK) === CurrencyInformerConfigModel::CURRENCY_INFORMER_CALCULATOR) {
       // Calculator
